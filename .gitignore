@@ -1,0 +1,7 @@
+# Ignore input and output folders
+input
+input1
+layer1
+background
+node_modules
+uploads
