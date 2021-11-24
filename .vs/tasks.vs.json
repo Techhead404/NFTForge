@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-forge",
+      "appliesTo": "Generate-art/generative-art-node-main/forge.html",
+      "type": "launch"
+    }
+  ]
+}
