@@ -1,22 +1,39 @@
-<h1 style="width:800px; margin:0 auto;">File Uploaded</h1>
+<link rel="stylesheet" href="styles.css">
 
-<h1>_____________________________________________________________</h1>
-<form action="/upload" method="POST" enctype="multipart/form-data">
-    <input type="file" id="id_layer1" name="avatar" webkitdirectory directory multiple >
-    <input type="file" id="id_background" name="avator" webkitdirectory directory multiple >
-    <button>Submit</button>
-</form>
+<h1 id="top">NFT FORGE</h1>
 
+<body id="body">
+    
+<div id="upload" >
+    <h1>_____________________________________________________________</h1>
+    <h2>Simply choose the layer folders to upload</h2>
+    <form  action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" id="id_layer1" name="avatar" webkitdirectory directory multiple >
+        <input type="file" id="id_background" name="avator" webkitdirectory directory multiple >
+        <button>Submit</button>
+    </form>
+    <h1>_____________________________________________________________</h1>
+</div>
 
+<div id="forge"></div>
+    <h2>After you are finished uploading click Forge to start making your NFTs</h2>
+    
+    
+    <form id="forge" action="/forge" method="POST" >
+        <button>Forge</button>
+    </form>
+</div>
 
-<h1>Forge</h1>
+<div id="download">
+    <h1>_____________________________________________________________</h1>
+    <h2>Click download to download a zip file of your new NFTs</h2>
+    
+    
 
-<form action="/forge" method="POST" >
-    <button>Forge</button>
-</form>
-
-<h1>DownLoad</h1>
-
-<form action="/download" method="GET" enctype="multipart/form-data">
-    <button>DownLoad</button>
-</form>
+    <form action="/download" method="GET" enctype="multipart/form-data">
+        <button>DownLoad</button>
+    </form>
+    <h1>_____________________________________________________________</h1>
+</div>
+</body>
+<footer id= "footer">Techs Studio Project</footerid></footer>

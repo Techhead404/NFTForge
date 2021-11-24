@@ -1,0 +1,43 @@
+page-container {
+  position: absolute;
+  min-height: 100vh;
+}
+h2 {
+  text-align: center;
+}
+#top {
+  text-align: center;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#body {
+  background-color: white;
+}
+#upload {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#forge {
+  text-align: center;
+}
+#download {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: medium;
+  color: white;
+  background-color: rgb(53, 53, 53);
+}
