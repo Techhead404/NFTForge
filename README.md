@@ -1,4 +1,3 @@
-# generative-art-node
+# Online NFT Generator 
 
-Create generative art by using the canvas api and node js
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Web service to upload multiple layers and mint NFTs on a server. 
