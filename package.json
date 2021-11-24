@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Daniel Eugene Botha",
+  "author": "Dillon Greek",
   "license": "ISC",
   "dependencies": {
     "adm-zip": "^0.5.5",
