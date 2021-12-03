@@ -1,6 +1,6 @@
 # Online NFT Generator 
 
-Web service to upload multiple layers and merge them into single jpgs. After finished user will download all images in a zip file. 
+Web service to upload multiple layers and merge them into single jpgs. After finished, user can download all images in a zip file. 
 
   --> Need to add minting  
   --> Refactor due to ES6 Module conflicts 
