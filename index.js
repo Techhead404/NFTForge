@@ -17,6 +17,7 @@ var newAmount;
 
 
 
+
 const saveLayer = (_canvas, _edition) => {
   fs.writeFileSync(`./output/${_edition}.png`, _canvas.toBuffer("image/png"));
 };
